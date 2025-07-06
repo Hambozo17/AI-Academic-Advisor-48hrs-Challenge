@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-07-06T19:23:35.620505",
+  "curriculum_stats": {
+    "total_courses": 29,
+    "total_prerequisites": 32,
+    "sample_courses": [
+      {
+        "id": "CS101",
+        "name": "Introduction to Programming"
+      },
+      {
+        "id": "CS102",
+        "name": "Data Structures"
+      },
+      {
+        "id": "CS201",
+        "name": "Algorithms"
+      },
+      {
+        "id": "CS301",
+        "name": "Software Engineering"
+      },
+      {
+        "id": "MATH101",
+        "name": "Calculus I"
+      }
+    ]
+  },
+  "student_stats": {
+    "total_students": 100,
+    "average_gpa": 3.3634999999999993,
+    "average_completed_courses": 13.52,
+    "students_with_failures": 4
+  },
+  "recommendation_summary": [
+    {
+      "student_id": "STU001",
+      "recommendations": 1,
+      "eligible_courses": 4
+    },
+    {
+      "student_id": "STU002",
+      "recommendations": 1,
+      "eligible_courses": 5
+    },
+    {
+      "student_id": "STU003",
+      "recommendations": 0,
+      "eligible_courses": 5
+    }
+  ],
+  "validation_results": {
+    "prerequisite_validation": true,
+    "course_load_limits": true,
+    "interest_alignment": true
+  }
+}

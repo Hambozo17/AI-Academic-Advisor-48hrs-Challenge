@@ -1,0 +1,523 @@
+{
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "id": "CS101"
+      },
+      {
+        "id": "CS102"
+      },
+      {
+        "id": "CS201"
+      },
+      {
+        "id": "CS301"
+      },
+      {
+        "id": "MATH101"
+      },
+      {
+        "id": "MATH102"
+      },
+      {
+        "id": "MATH201"
+      },
+      {
+        "id": "MATH301"
+      },
+      {
+        "id": "AI101"
+      },
+      {
+        "id": "AI201"
+      },
+      {
+        "id": "AI301"
+      },
+      {
+        "id": "AI401"
+      },
+      {
+        "id": "AI402"
+      },
+      {
+        "id": "DS101"
+      },
+      {
+        "id": "DS201"
+      },
+      {
+        "id": "DS301"
+      },
+      {
+        "id": "DS401"
+      },
+      {
+        "id": "SEC101"
+      },
+      {
+        "id": "SEC201"
+      },
+      {
+        "id": "SEC301"
+      },
+      {
+        "id": "SEC401"
+      },
+      {
+        "id": "SYS101"
+      },
+      {
+        "id": "SYS201"
+      },
+      {
+        "id": "SYS301"
+      },
+      {
+        "id": "SYS401"
+      },
+      {
+        "id": "SE101"
+      },
+      {
+        "id": "SE201"
+      },
+      {
+        "id": "SE301"
+      },
+      {
+        "id": "SE401"
+      }
+    ],
+    "links": [
+      {
+        "source": "CS101",
+        "target": "CS102"
+      },
+      {
+        "source": "CS101",
+        "target": "AI101"
+      },
+      {
+        "source": "CS101",
+        "target": "SEC101"
+      },
+      {
+        "source": "CS101",
+        "target": "SE301"
+      },
+      {
+        "source": "CS102",
+        "target": "CS201"
+      },
+      {
+        "source": "CS102",
+        "target": "AI101"
+      },
+      {
+        "source": "CS102",
+        "target": "DS101"
+      },
+      {
+        "source": "CS102",
+        "target": "DS201"
+      },
+      {
+        "source": "CS102",
+        "target": "SYS101"
+      },
+      {
+        "source": "CS201",
+        "target": "CS301"
+      },
+      {
+        "source": "CS201",
+        "target": "SE101"
+      },
+      {
+        "source": "MATH101",
+        "target": "MATH102"
+      },
+      {
+        "source": "MATH102",
+        "target": "MATH201"
+      },
+      {
+        "source": "MATH201",
+        "target": "MATH301"
+      },
+      {
+        "source": "MATH201",
+        "target": "AI101"
+      },
+      {
+        "source": "MATH201",
+        "target": "SEC301"
+      },
+      {
+        "source": "MATH301",
+        "target": "AI201"
+      },
+      {
+        "source": "MATH301",
+        "target": "DS101"
+      },
+      {
+        "source": "AI101",
+        "target": "AI201"
+      },
+      {
+        "source": "AI201",
+        "target": "AI301"
+      },
+      {
+        "source": "AI201",
+        "target": "AI401"
+      },
+      {
+        "source": "AI201",
+        "target": "AI402"
+      },
+      {
+        "source": "DS101",
+        "target": "DS301"
+      },
+      {
+        "source": "DS101",
+        "target": "DS401"
+      },
+      {
+        "source": "DS201",
+        "target": "DS301"
+      },
+      {
+        "source": "SEC101",
+        "target": "SEC201"
+      },
+      {
+        "source": "SEC201",
+        "target": "SEC401"
+      },
+      {
+        "source": "SYS101",
+        "target": "SYS201"
+      },
+      {
+        "source": "SYS201",
+        "target": "SYS301"
+      },
+      {
+        "source": "SYS201",
+        "target": "SYS401"
+      },
+      {
+        "source": "SE101",
+        "target": "SE201"
+      },
+      {
+        "source": "SE201",
+        "target": "SE401"
+      }
+    ]
+  },
+  "course_info": {
+    "CS101": {
+      "name": "Introduction to Programming",
+      "credits": 3,
+      "difficulty": 4.0,
+      "interest_area": "General",
+      "prerequisites": []
+    },
+    "CS102": {
+      "name": "Data Structures",
+      "credits": 3,
+      "difficulty": 6.0,
+      "interest_area": "General",
+      "prerequisites": [
+        "CS101"
+      ]
+    },
+    "CS201": {
+      "name": "Algorithms",
+      "credits": 3,
+      "difficulty": 7.0,
+      "interest_area": "General",
+      "prerequisites": [
+        "CS102"
+      ]
+    },
+    "CS301": {
+      "name": "Software Engineering",
+      "credits": 3,
+      "difficulty": 6.5,
+      "interest_area": "Software Engineering",
+      "prerequisites": [
+        "CS201"
+      ]
+    },
+    "MATH101": {
+      "name": "Calculus I",
+      "credits": 4,
+      "difficulty": 6.0,
+      "interest_area": "General",
+      "prerequisites": []
+    },
+    "MATH102": {
+      "name": "Calculus II",
+      "credits": 4,
+      "difficulty": 6.5,
+      "interest_area": "General",
+      "prerequisites": [
+        "MATH101"
+      ]
+    },
+    "MATH201": {
+      "name": "Linear Algebra",
+      "credits": 3,
+      "difficulty": 5.5,
+      "interest_area": "General",
+      "prerequisites": [
+        "MATH102"
+      ]
+    },
+    "MATH301": {
+      "name": "Statistics",
+      "credits": 3,
+      "difficulty": 5.0,
+      "interest_area": "Data Science",
+      "prerequisites": [
+        "MATH201"
+      ]
+    },
+    "AI101": {
+      "name": "Introduction to AI",
+      "credits": 3,
+      "difficulty": 7.0,
+      "interest_area": "AI",
+      "prerequisites": [
+        "CS101",
+        "CS102",
+        "MATH201"
+      ]
+    },
+    "AI201": {
+      "name": "Machine Learning",
+      "credits": 3,
+      "difficulty": 8.0,
+      "interest_area": "AI",
+      "prerequisites": [
+        "AI101",
+        "MATH301"
+      ]
+    },
+    "AI301": {
+      "name": "Deep Learning",
+      "credits": 3,
+      "difficulty": 9.0,
+      "interest_area": "AI",
+      "prerequisites": [
+        "AI201"
+      ]
+    },
+    "AI401": {
+      "name": "Computer Vision",
+      "credits": 3,
+      "difficulty": 8.5,
+      "interest_area": "AI",
+      "prerequisites": [
+        "AI201"
+      ]
+    },
+    "AI402": {
+      "name": "Natural Language Processing",
+      "credits": 3,
+      "difficulty": 8.5,
+      "interest_area": "AI",
+      "prerequisites": [
+        "AI201"
+      ]
+    },
+    "DS101": {
+      "name": "Data Mining",
+      "credits": 3,
+      "difficulty": 6.5,
+      "interest_area": "Data Science",
+      "prerequisites": [
+        "CS102",
+        "MATH301"
+      ]
+    },
+    "DS201": {
+      "name": "Database Systems",
+      "credits": 3,
+      "difficulty": 6.0,
+      "interest_area": "Data Science",
+      "prerequisites": [
+        "CS102"
+      ]
+    },
+    "DS301": {
+      "name": "Big Data Analytics",
+      "credits": 3,
+      "difficulty": 7.5,
+      "interest_area": "Data Science",
+      "prerequisites": [
+        "DS101",
+        "DS201"
+      ]
+    },
+    "DS401": {
+      "name": "Data Visualization",
+      "credits": 3,
+      "difficulty": 5.5,
+      "interest_area": "Data Science",
+      "prerequisites": [
+        "DS101"
+      ]
+    },
+    "SEC101": {
+      "name": "Introduction to Cybersecurity",
+      "credits": 3,
+      "difficulty": 6.0,
+      "interest_area": "Security",
+      "prerequisites": [
+        "CS101"
+      ]
+    },
+    "SEC201": {
+      "name": "Network Security",
+      "credits": 3,
+      "difficulty": 7.0,
+      "interest_area": "Security",
+      "prerequisites": [
+        "SEC101"
+      ]
+    },
+    "SEC301": {
+      "name": "Cryptography",
+      "credits": 3,
+      "difficulty": 8.0,
+      "interest_area": "Security",
+      "prerequisites": [
+        "MATH201"
+      ]
+    },
+    "SEC401": {
+      "name": "Information Security",
+      "credits": 3,
+      "difficulty": 7.5,
+      "interest_area": "Security",
+      "prerequisites": [
+        "SEC201"
+      ]
+    },
+    "SYS101": {
+      "name": "Operating Systems",
+      "credits": 3,
+      "difficulty": 7.5,
+      "interest_area": "Systems",
+      "prerequisites": [
+        "CS102"
+      ]
+    },
+    "SYS201": {
+      "name": "Computer Networks",
+      "credits": 3,
+      "difficulty": 7.0,
+      "interest_area": "Systems",
+      "prerequisites": [
+        "SYS101"
+      ]
+    },
+    "SYS301": {
+      "name": "Distributed Systems",
+      "credits": 3,
+      "difficulty": 8.5,
+      "interest_area": "Systems",
+      "prerequisites": [
+        "SYS201"
+      ]
+    },
+    "SYS401": {
+      "name": "Cloud Computing",
+      "credits": 3,
+      "difficulty": 7.0,
+      "interest_area": "Systems",
+      "prerequisites": [
+        "SYS201"
+      ]
+    },
+    "SE101": {
+      "name": "Software Architecture",
+      "credits": 3,
+      "difficulty": 6.5,
+      "interest_area": "Software Engineering",
+      "prerequisites": [
+        "CS201"
+      ]
+    },
+    "SE201": {
+      "name": "Design Patterns",
+      "credits": 3,
+      "difficulty": 7.0,
+      "interest_area": "Software Engineering",
+      "prerequisites": [
+        "SE101"
+      ]
+    },
+    "SE301": {
+      "name": "Web Development",
+      "credits": 3,
+      "difficulty": 5.5,
+      "interest_area": "Software Engineering",
+      "prerequisites": [
+        "CS101"
+      ]
+    },
+    "SE401": {
+      "name": "Mobile Development",
+      "credits": 3,
+      "difficulty": 6.0,
+      "interest_area": "Software Engineering",
+      "prerequisites": [
+        "SE201"
+      ]
+    }
+  },
+  "interest_areas": {
+    "AI": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "NLP"
+    ],
+    "Security": [
+      "Cybersecurity",
+      "Network Security",
+      "Cryptography",
+      "Information Security"
+    ],
+    "Data Science": [
+      "Data Mining",
+      "Statistics",
+      "Database Systems",
+      "Big Data Analytics"
+    ],
+    "Software Engineering": [
+      "Software Architecture",
+      "Design Patterns",
+      "Web Development",
+      "Mobile Development"
+    ],
+    "Systems": [
+      "Operating Systems",
+      "Computer Networks",
+      "Distributed Systems",
+      "Cloud Computing"
+    ]
+  }
+}

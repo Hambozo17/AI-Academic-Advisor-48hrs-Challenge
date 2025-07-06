@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-07-06T18:08:02.476109",
+  "system_overview": {
+    "total_students": 100,
+    "egyptian_students": true,
+    "average_gpa": 3.37,
+    "recommendation_system": "Deep Q-Network"
+  },
+  "sample_egyptian_students": [
+    {
+      "name": "Ziad Ismail",
+      "gpa": 3.57
+    },
+    {
+      "name": "Yasmin El-Dakrory",
+      "gpa": 3.43
+    },
+    {
+      "name": "Malak Nasser",
+      "gpa": 3.48
+    }
+  ]
+}

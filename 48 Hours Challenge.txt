@@ -1,0 +1,47 @@
+48 Hours Challenge: AI-Powered Academic Advisor
+Title: "AI Curriculum Planner: Adaptive Academic Advising for 100 Simulated Students"
+Objective: Simulate a personalized academic advising system for a cohort of 100 students using graph-based curriculum modeling and reinforcement learning (or similar techniques) for optimized course path recommendations.
+
+Instructions: You are tasked with:
+    PART 1 – Curriculum and Student Simulation (Graph Modeling)
+1. Model a university curriculum using a graph structure or graph database.
+o Nodes = courses
+o Edges = prerequisite relations
+2. Simulate 100 students, each with:
+o A different collection of completed/passed courses
+o GPA and course grades
+o Interests (e.g., AI, Security, Data Science)
+3. Constraints to model:
+o Course load limit: max 3-5 courses per term
+o Cannot take a course without completing its prerequisites
+o Retake policy for failed courses
+4. Submit:
+o A script or notebook generating the student data + curriculum graph
+o Sample graph schema (or Cypher queries if using Neo4j)
+o Optional: Visualize part of the graph (e.g., with NetworkX or Graphviz)
+
+   PART 2 – AI-Based Personalization Strategy
+1. Design and implement a high-level personalization algorithm using RL or heuristic-based planning.
+o Each student is recommended a set of next-term courses
+o Recommendations must:
+* Respect constraints
+* Align with interests
+* Maximize GPA or graduation likelihood
+2. If using RL (preferred):
+o Define:
+* State: current completed courses, GPA, term number, interests
+* Action: selecting a set of next-term eligible courses
+* Reward: GPA boost, interest alignment, progress toward graduation
+3. Train the model (or simulate decisions for at least 10 students).
+
+Deliverables (Within 48 Hours)
+1. GitHub Repo:
+o Contains all code, models, and sample data
+o README explaining setup and how to run the task
+2. 2-Page Report (PDF):
+o Explanation of graph schema
+o Student generation logic
+o Personalization strategy and key design choices
+o Example results for 3–5 students
+o Any visualizations or performance metrics (even simple ones)
+
